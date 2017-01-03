@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252508201E1B21E200D65637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525081F1E1B21E200D65637 /* AppDelegate.swift */; };
+		252508221E1B21E200D65637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508211E1B21E200D65637 /* ViewController.swift */; };
+		252508251E1B21E200D65637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252508231E1B21E200D65637 /* Main.storyboard */; };
+		252508281E1B21E200D65637 /* wolfpackchat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 252508261E1B21E200D65637 /* wolfpackchat.xcdatamodeld */; };
+		2525082A1E1B21E200D65637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252508291E1B21E200D65637 /* Assets.xcassets */; };
+		2525082D1E1B21E200D65637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2525082B1E1B21E200D65637 /* LaunchScreen.storyboard */; };
+		252508381E1B21E300D65637 /* wolfpackchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508371E1B21E300D65637 /* wolfpackchatTests.swift */; };
+		252508431E1B21E300D65637 /* wolfpackchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508421E1B21E300D65637 /* wolfpackchatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		252508341E1B21E300D65637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 252508141E1B21E200D65637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2525081B1E1B21E200D65637;
+			remoteInfo = wolfpackchat;
+		};
+		2525083F1E1B21E300D65637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 252508141E1B21E200D65637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2525081B1E1B21E200D65637;
+			remoteInfo = wolfpackchat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2525081C1E1B21E200D65637 /* wolfpackchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wolfpackchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2525081F1E1B21E200D65637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		252508211E1B21E200D65637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		252508241E1B21E200D65637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		252508271E1B21E200D65637 /* wolfpackchat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wolfpackchat.xcdatamodel; sourceTree = "<group>"; };
+		252508291E1B21E200D65637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2525082C1E1B21E200D65637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2525082E1E1B21E200D65637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252508331E1B21E300D65637 /* wolfpackchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wolfpackchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		252508371E1B21E300D65637 /* wolfpackchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wolfpackchatTests.swift; sourceTree = "<group>"; };
+		252508391E1B21E300D65637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2525083E1E1B21E300D65637 /* wolfpackchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wolfpackchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		252508421E1B21E300D65637 /* wolfpackchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wolfpackchatUITests.swift; sourceTree = "<group>"; };
+		252508441E1B21E300D65637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252508191E1B21E200D65637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252508301E1B21E300D65637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2525083B1E1B21E300D65637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252508131E1B21E200D65637 = {
+			isa = PBXGroup;
+			children = (
+				2525081E1E1B21E200D65637 /* wolfpackchat */,
+				252508361E1B21E300D65637 /* wolfpackchatTests */,
+				252508411E1B21E300D65637 /* wolfpackchatUITests */,
+				2525081D1E1B21E200D65637 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2525081D1E1B21E200D65637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2525081C1E1B21E200D65637 /* wolfpackchat.app */,
+				252508331E1B21E300D65637 /* wolfpackchatTests.xctest */,
+				2525083E1E1B21E300D65637 /* wolfpackchatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2525081E1E1B21E200D65637 /* wolfpackchat */ = {
+			isa = PBXGroup;
+			children = (
+				2525081F1E1B21E200D65637 /* AppDelegate.swift */,
+				252508211E1B21E200D65637 /* ViewController.swift */,
+				252508231E1B21E200D65637 /* Main.storyboard */,
+				252508291E1B21E200D65637 /* Assets.xcassets */,
+				2525082B1E1B21E200D65637 /* LaunchScreen.storyboard */,
+				2525082E1E1B21E200D65637 /* Info.plist */,
+				252508261E1B21E200D65637 /* wolfpackchat.xcdatamodeld */,
+			);
+			path = wolfpackchat;
+			sourceTree = "<group>";
+		};
+		252508361E1B21E300D65637 /* wolfpackchatTests */ = {
+			isa = PBXGroup;
+			children = (
+				252508371E1B21E300D65637 /* wolfpackchatTests.swift */,
+				252508391E1B21E300D65637 /* Info.plist */,
+			);
+			path = wolfpackchatTests;
+			sourceTree = "<group>";
+		};
+		252508411E1B21E300D65637 /* wolfpackchatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				252508421E1B21E300D65637 /* wolfpackchatUITests.swift */,
+				252508441E1B21E300D65637 /* Info.plist */,
+			);
+			path = wolfpackchatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2525081B1E1B21E200D65637 /* wolfpackchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252508471E1B21E300D65637 /* Build configuration list for PBXNativeTarget "wolfpackchat" */;
+			buildPhases = (
+				252508181E1B21E200D65637 /* Sources */,
+				252508191E1B21E200D65637 /* Frameworks */,
+				2525081A1E1B21E200D65637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wolfpackchat;
+			productName = wolfpackchat;
+			productReference = 2525081C1E1B21E200D65637 /* wolfpackchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		252508321E1B21E300D65637 /* wolfpackchatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2525084A1E1B21E300D65637 /* Build configuration list for PBXNativeTarget "wolfpackchatTests" */;
+			buildPhases = (
+				2525082F1E1B21E300D65637 /* Sources */,
+				252508301E1B21E300D65637 /* Frameworks */,
+				252508311E1B21E300D65637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252508351E1B21E300D65637 /* PBXTargetDependency */,
+			);
+			name = wolfpackchatTests;
+			productName = wolfpackchatTests;
+			productReference = 252508331E1B21E300D65637 /* wolfpackchatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2525083D1E1B21E300D65637 /* wolfpackchatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2525084D1E1B21E300D65637 /* Build configuration list for PBXNativeTarget "wolfpackchatUITests" */;
+			buildPhases = (
+				2525083A1E1B21E300D65637 /* Sources */,
+				2525083B1E1B21E300D65637 /* Frameworks */,
+				2525083C1E1B21E300D65637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252508401E1B21E300D65637 /* PBXTargetDependency */,
+			);
+			name = wolfpackchatUITests;
+			productName = wolfpackchatUITests;
+			productReference = 2525083E1E1B21E300D65637 /* wolfpackchatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252508141E1B21E200D65637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = John;
+				TargetAttributes = {
+					2525081B1E1B21E200D65637 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					252508321E1B21E300D65637 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2525081B1E1B21E200D65637;
+					};
+					2525083D1E1B21E300D65637 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2525081B1E1B21E200D65637;
+					};
+				};
+			};
+			buildConfigurationList = 252508171E1B21E200D65637 /* Build configuration list for PBXProject "wolfpackchat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 252508131E1B21E200D65637;
+			productRefGroup = 2525081D1E1B21E200D65637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2525081B1E1B21E200D65637 /* wolfpackchat */,
+				252508321E1B21E300D65637 /* wolfpackchatTests */,
+				2525083D1E1B21E300D65637 /* wolfpackchatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2525081A1E1B21E200D65637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2525082D1E1B21E200D65637 /* LaunchScreen.storyboard in Resources */,
+				2525082A1E1B21E200D65637 /* Assets.xcassets in Resources */,
+				252508251E1B21E200D65637 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252508311E1B21E300D65637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2525083C1E1B21E300D65637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252508181E1B21E200D65637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252508281E1B21E200D65637 /* wolfpackchat.xcdatamodeld in Sources */,
+				252508221E1B21E200D65637 /* ViewController.swift in Sources */,
+				252508201E1B21E200D65637 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2525082F1E1B21E300D65637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252508381E1B21E300D65637 /* wolfpackchatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2525083A1E1B21E300D65637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252508431E1B21E300D65637 /* wolfpackchatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		252508351E1B21E300D65637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2525081B1E1B21E200D65637 /* wolfpackchat */;
+			targetProxy = 252508341E1B21E300D65637 /* PBXContainerItemProxy */;
+		};
+		252508401E1B21E300D65637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2525081B1E1B21E200D65637 /* wolfpackchat */;
+			targetProxy = 2525083F1E1B21E300D65637 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		252508231E1B21E200D65637 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252508241E1B21E200D65637 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2525082B1E1B21E200D65637 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2525082C1E1B21E200D65637 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		252508451E1B21E300D65637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		252508461E1B21E300D65637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		252508481E1B21E300D65637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wolfpackchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.wolfpackchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		252508491E1B21E300D65637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wolfpackchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.wolfpackchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2525084B1E1B21E300D65637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wolfpackchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.wolfpackchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wolfpackchat.app/wolfpackchat";
+			};
+			name = Debug;
+		};
+		2525084C1E1B21E300D65637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wolfpackchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.wolfpackchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wolfpackchat.app/wolfpackchat";
+			};
+			name = Release;
+		};
+		2525084E1E1B21E300D65637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = wolfpackchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.wolfpackchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wolfpackchat;
+			};
+			name = Debug;
+		};
+		2525084F1E1B21E300D65637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = wolfpackchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.wolfpackchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wolfpackchat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252508171E1B21E200D65637 /* Build configuration list for PBXProject "wolfpackchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252508451E1B21E300D65637 /* Debug */,
+				252508461E1B21E300D65637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252508471E1B21E300D65637 /* Build configuration list for PBXNativeTarget "wolfpackchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252508481E1B21E300D65637 /* Debug */,
+				252508491E1B21E300D65637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2525084A1E1B21E300D65637 /* Build configuration list for PBXNativeTarget "wolfpackchatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2525084B1E1B21E300D65637 /* Debug */,
+				2525084C1E1B21E300D65637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2525084D1E1B21E300D65637 /* Build configuration list for PBXNativeTarget "wolfpackchatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2525084E1E1B21E300D65637 /* Debug */,
+				2525084F1E1B21E300D65637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		252508261E1B21E200D65637 /* wolfpackchat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				252508271E1B21E200D65637 /* wolfpackchat.xcdatamodel */,
+			);
+			currentVersion = 252508271E1B21E200D65637 /* wolfpackchat.xcdatamodel */;
+			path = wolfpackchat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 252508141E1B21E200D65637 /* Project object */;
+}
