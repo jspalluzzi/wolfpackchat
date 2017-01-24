@@ -1,0 +1,6 @@
+framework module Pods_wolfpackchat {
+  umbrella header "Pods-wolfpackchat-umbrella.h"
+
+  export *
+  module * { export * }
+}

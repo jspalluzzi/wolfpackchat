@@ -1,0 +1,6 @@
+framework module Pods_wolfpackchatUITests {
+  umbrella header "Pods-wolfpackchatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

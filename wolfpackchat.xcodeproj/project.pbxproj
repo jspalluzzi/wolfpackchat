@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101833B5A71B16DF1B5989FB /* Pods_wolfpackchatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9838F2B452846B4C23E05885 /* Pods_wolfpackchatTests.framework */; };
 		252508201E1B21E200D65637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525081F1E1B21E200D65637 /* AppDelegate.swift */; };
-		252508221E1B21E200D65637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508211E1B21E200D65637 /* ViewController.swift */; };
 		252508251E1B21E200D65637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252508231E1B21E200D65637 /* Main.storyboard */; };
 		252508281E1B21E200D65637 /* wolfpackchat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 252508261E1B21E200D65637 /* wolfpackchat.xcdatamodeld */; };
 		2525082A1E1B21E200D65637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252508291E1B21E200D65637 /* Assets.xcassets */; };
 		2525082D1E1B21E200D65637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2525082B1E1B21E200D65637 /* LaunchScreen.storyboard */; };
 		252508381E1B21E300D65637 /* wolfpackchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508371E1B21E300D65637 /* wolfpackchatTests.swift */; };
 		252508431E1B21E300D65637 /* wolfpackchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508421E1B21E300D65637 /* wolfpackchatUITests.swift */; };
+		252508521E1B224C00D65637 /* WPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508511E1B224C00D65637 /* WPLoginViewController.swift */; };
+		252508541E1B226200D65637 /* WPMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508531E1B226200D65637 /* WPMessagesViewController.swift */; };
+		252508581E1B22A800D65637 /* WPMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508571E1B22A800D65637 /* WPMemberViewController.swift */; };
+		2525085E1E1C919F00D65637 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2525085D1E1C919F00D65637 /* GoogleService-Info.plist */; };
+		252508601E1D7BE800D65637 /* WPMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525085F1E1D7BE800D65637 /* WPMessageViewController.swift */; };
+		252508621E1D7D5600D65637 /* WPMembersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508611E1D7D5600D65637 /* WPMembersCollectionViewController.swift */; };
+		252508641E1D9D3E00D65637 /* WPMemberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508631E1D9D3E00D65637 /* WPMemberModel.swift */; };
+		252508661E1D9EF300D65637 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252508651E1D9EF300D65637 /* Global.swift */; };
+		253E0B3E1E256A9700ACB500 /* WPMemberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253E0B3D1E256A9700ACB500 /* WPMemberViewModel.swift */; };
+		253E0B401E256ABF00ACB500 /* WPMemberNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253E0B3F1E256ABF00ACB500 /* WPMemberNetwork.swift */; };
+		253E0B421E256DCE00ACB500 /* MembersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253E0B411E256DCE00ACB500 /* MembersViewModel.swift */; };
+		253E0B4A1E2714DF00ACB500 /* NoPackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253E0B491E2714DF00ACB500 /* NoPackViewController.swift */; };
+		5F22CEF8B8C41B7365B55932 /* Pods_wolfpackchatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B402DD149FBD292C7A003 /* Pods_wolfpackchatUITests.framework */; };
+		91E60FB7C14CBB806AE23154 /* Pods_wolfpackchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81F384CB0A40288C9328D10 /* Pods_wolfpackchat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B4104FFD6F1586522FD9D4C /* Pods-wolfpackchatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wolfpackchatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wolfpackchatUITests/Pods-wolfpackchatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2525081C1E1B21E200D65637 /* wolfpackchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wolfpackchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2525081F1E1B21E200D65637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		252508211E1B21E200D65637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		252508241E1B21E200D65637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		252508271E1B21E200D65637 /* wolfpackchat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wolfpackchat.xcdatamodel; sourceTree = "<group>"; };
 		252508291E1B21E200D65637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +63,26 @@
 		2525083E1E1B21E300D65637 /* wolfpackchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wolfpackchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		252508421E1B21E300D65637 /* wolfpackchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wolfpackchatUITests.swift; sourceTree = "<group>"; };
 		252508441E1B21E300D65637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252508511E1B224C00D65637 /* WPLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPLoginViewController.swift; sourceTree = "<group>"; };
+		252508531E1B226200D65637 /* WPMessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPMessagesViewController.swift; sourceTree = "<group>"; };
+		252508571E1B22A800D65637 /* WPMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPMemberViewController.swift; sourceTree = "<group>"; };
+		2525085D1E1C919F00D65637 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2525085F1E1D7BE800D65637 /* WPMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPMessageViewController.swift; sourceTree = "<group>"; };
+		252508611E1D7D5600D65637 /* WPMembersCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPMembersCollectionViewController.swift; sourceTree = "<group>"; };
+		252508631E1D9D3E00D65637 /* WPMemberModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPMemberModel.swift; sourceTree = "<group>"; };
+		252508651E1D9EF300D65637 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		253E0B3D1E256A9700ACB500 /* WPMemberViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPMemberViewModel.swift; sourceTree = "<group>"; };
+		253E0B3F1E256ABF00ACB500 /* WPMemberNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPMemberNetwork.swift; sourceTree = "<group>"; };
+		253E0B411E256DCE00ACB500 /* MembersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembersViewModel.swift; sourceTree = "<group>"; };
+		253E0B491E2714DF00ACB500 /* NoPackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoPackViewController.swift; sourceTree = "<group>"; };
+		277C92A977003FFDF06BCEF6 /* Pods-wolfpackchatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wolfpackchatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wolfpackchatTests/Pods-wolfpackchatTests.release.xcconfig"; sourceTree = "<group>"; };
+		959ED1F5F95ED9DF5DE0ECF9 /* Pods-wolfpackchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wolfpackchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wolfpackchat/Pods-wolfpackchat.debug.xcconfig"; sourceTree = "<group>"; };
+		965B402DD149FBD292C7A003 /* Pods_wolfpackchatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wolfpackchatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9838F2B452846B4C23E05885 /* Pods_wolfpackchatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wolfpackchatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DFBE55C50BB7768D2FBB2F /* Pods-wolfpackchatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wolfpackchatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wolfpackchatUITests/Pods-wolfpackchatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA00EE09F2BC5F5E2AA295F8 /* Pods-wolfpackchatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wolfpackchatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wolfpackchatTests/Pods-wolfpackchatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E81F384CB0A40288C9328D10 /* Pods_wolfpackchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wolfpackchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95594B23420CEAE960D32EA /* Pods-wolfpackchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wolfpackchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-wolfpackchat/Pods-wolfpackchat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E60FB7C14CBB806AE23154 /* Pods_wolfpackchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101833B5A71B16DF1B5989FB /* Pods_wolfpackchatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F22CEF8B8C41B7365B55932 /* Pods_wolfpackchatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +120,8 @@
 				252508361E1B21E300D65637 /* wolfpackchatTests */,
 				252508411E1B21E300D65637 /* wolfpackchatUITests */,
 				2525081D1E1B21E200D65637 /* Products */,
+				CCFE84FA781E655687E5BBC3 /* Pods */,
+				FDF93A7A8214B71047A99E8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +138,20 @@
 		2525081E1E1B21E200D65637 /* wolfpackchat */ = {
 			isa = PBXGroup;
 			children = (
+				2525085D1E1C919F00D65637 /* GoogleService-Info.plist */,
 				2525081F1E1B21E200D65637 /* AppDelegate.swift */,
-				252508211E1B21E200D65637 /* ViewController.swift */,
 				252508231E1B21E200D65637 /* Main.storyboard */,
 				252508291E1B21E200D65637 /* Assets.xcassets */,
 				2525082B1E1B21E200D65637 /* LaunchScreen.storyboard */,
 				2525082E1E1B21E200D65637 /* Info.plist */,
 				252508261E1B21E200D65637 /* wolfpackchat.xcdatamodeld */,
+				253E0B431E2570D600ACB500 /* Login */,
+				253E0B391E256A2B00ACB500 /* Messages */,
+				253E0B4B1E27166C00ACB500 /* NoPack */,
+				253E0B3A1E256A4700ACB500 /* Message */,
+				253E0B3B1E256A5500ACB500 /* Members */,
+				253E0B3C1E256A6200ACB500 /* Member */,
+				252508651E1D9EF300D65637 /* Global.swift */,
 			);
 			path = wolfpackchat;
 			sourceTree = "<group>";
@@ -128,6 +174,81 @@
 			path = wolfpackchatUITests;
 			sourceTree = "<group>";
 		};
+		253E0B391E256A2B00ACB500 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				252508531E1B226200D65637 /* WPMessagesViewController.swift */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		253E0B3A1E256A4700ACB500 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				2525085F1E1D7BE800D65637 /* WPMessageViewController.swift */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		253E0B3B1E256A5500ACB500 /* Members */ = {
+			isa = PBXGroup;
+			children = (
+				252508611E1D7D5600D65637 /* WPMembersCollectionViewController.swift */,
+				253E0B411E256DCE00ACB500 /* MembersViewModel.swift */,
+			);
+			name = Members;
+			sourceTree = "<group>";
+		};
+		253E0B3C1E256A6200ACB500 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				252508571E1B22A800D65637 /* WPMemberViewController.swift */,
+				253E0B3D1E256A9700ACB500 /* WPMemberViewModel.swift */,
+				252508631E1D9D3E00D65637 /* WPMemberModel.swift */,
+				253E0B3F1E256ABF00ACB500 /* WPMemberNetwork.swift */,
+			);
+			name = Member;
+			sourceTree = "<group>";
+		};
+		253E0B431E2570D600ACB500 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				252508511E1B224C00D65637 /* WPLoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		253E0B4B1E27166C00ACB500 /* NoPack */ = {
+			isa = PBXGroup;
+			children = (
+				253E0B491E2714DF00ACB500 /* NoPackViewController.swift */,
+			);
+			name = NoPack;
+			sourceTree = "<group>";
+		};
+		CCFE84FA781E655687E5BBC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				959ED1F5F95ED9DF5DE0ECF9 /* Pods-wolfpackchat.debug.xcconfig */,
+				E95594B23420CEAE960D32EA /* Pods-wolfpackchat.release.xcconfig */,
+				AA00EE09F2BC5F5E2AA295F8 /* Pods-wolfpackchatTests.debug.xcconfig */,
+				277C92A977003FFDF06BCEF6 /* Pods-wolfpackchatTests.release.xcconfig */,
+				A6DFBE55C50BB7768D2FBB2F /* Pods-wolfpackchatUITests.debug.xcconfig */,
+				1B4104FFD6F1586522FD9D4C /* Pods-wolfpackchatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDF93A7A8214B71047A99E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E81F384CB0A40288C9328D10 /* Pods_wolfpackchat.framework */,
+				9838F2B452846B4C23E05885 /* Pods_wolfpackchatTests.framework */,
+				965B402DD149FBD292C7A003 /* Pods_wolfpackchatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 252508471E1B21E300D65637 /* Build configuration list for PBXNativeTarget "wolfpackchat" */;
 			buildPhases = (
+				63957C956C43F314A1609066 /* [CP] Check Pods Manifest.lock */,
 				252508181E1B21E200D65637 /* Sources */,
 				252508191E1B21E200D65637 /* Frameworks */,
 				2525081A1E1B21E200D65637 /* Resources */,
+				404C4EA44BF02BD379FBDFFA /* [CP] Embed Pods Frameworks */,
+				835E1A52FCA2744FA2AB7DDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2525084A1E1B21E300D65637 /* Build configuration list for PBXNativeTarget "wolfpackchatTests" */;
 			buildPhases = (
+				1810C2800D138442EBE8B04B /* [CP] Check Pods Manifest.lock */,
 				2525082F1E1B21E300D65637 /* Sources */,
 				252508301E1B21E300D65637 /* Frameworks */,
 				252508311E1B21E300D65637 /* Resources */,
+				03B5F0878BA8113A2BF64518 /* [CP] Embed Pods Frameworks */,
+				A22312329891F133A2CCC523 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2525084D1E1B21E300D65637 /* Build configuration list for PBXNativeTarget "wolfpackchatUITests" */;
 			buildPhases = (
+				AD91289CE2CF3B5E67A6DDBA /* [CP] Check Pods Manifest.lock */,
 				2525083A1E1B21E300D65637 /* Sources */,
 				2525083B1E1B21E300D65637 /* Frameworks */,
 				2525083C1E1B21E300D65637 /* Resources */,
+				91325CE256385F96F850421D /* [CP] Copy Pods Resources */,
+				303C3B559BF1B63180E3DB71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +326,7 @@
 				TargetAttributes = {
 					2525081B1E1B21E200D65637 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84YJMXPA5S;
 						ProvisioningStyle = Automatic;
 					};
 					252508321E1B21E300D65637 = {
@@ -236,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2525082D1E1B21E200D65637 /* LaunchScreen.storyboard in Resources */,
+				2525085E1E1C919F00D65637 /* GoogleService-Info.plist in Resources */,
 				2525082A1E1B21E200D65637 /* Assets.xcassets in Resources */,
 				252508251E1B21E200D65637 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +389,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03B5F0878BA8113A2BF64518 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wolfpackchatTests/Pods-wolfpackchatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1810C2800D138442EBE8B04B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		303C3B559BF1B63180E3DB71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wolfpackchatUITests/Pods-wolfpackchatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		404C4EA44BF02BD379FBDFFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wolfpackchat/Pods-wolfpackchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63957C956C43F314A1609066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		835E1A52FCA2744FA2AB7DDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wolfpackchat/Pods-wolfpackchat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91325CE256385F96F850421D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wolfpackchatUITests/Pods-wolfpackchatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A22312329891F133A2CCC523 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wolfpackchatTests/Pods-wolfpackchatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD91289CE2CF3B5E67A6DDBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		252508181E1B21E200D65637 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252508641E1D9D3E00D65637 /* WPMemberModel.swift in Sources */,
+				252508581E1B22A800D65637 /* WPMemberViewController.swift in Sources */,
+				252508601E1D7BE800D65637 /* WPMessageViewController.swift in Sources */,
+				253E0B401E256ABF00ACB500 /* WPMemberNetwork.swift in Sources */,
+				253E0B421E256DCE00ACB500 /* MembersViewModel.swift in Sources */,
+				253E0B4A1E2714DF00ACB500 /* NoPackViewController.swift in Sources */,
+				253E0B3E1E256A9700ACB500 /* WPMemberViewModel.swift in Sources */,
 				252508281E1B21E200D65637 /* wolfpackchat.xcdatamodeld in Sources */,
-				252508221E1B21E200D65637 /* ViewController.swift in Sources */,
+				252508521E1B224C00D65637 /* WPLoginViewController.swift in Sources */,
 				252508201E1B21E200D65637 /* AppDelegate.swift in Sources */,
+				252508621E1D7D5600D65637 /* WPMembersCollectionViewController.swift in Sources */,
+				252508541E1B226200D65637 /* WPMessagesViewController.swift in Sources */,
+				252508661E1D9EF300D65637 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,8 +694,14 @@
 		};
 		252508481E1B21E300D65637 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959ED1F5F95ED9DF5DE0ECF9 /* Pods-wolfpackchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84YJMXPA5S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = wolfpackchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = john.wolfpackchat;
@@ -426,8 +712,14 @@
 		};
 		252508491E1B21E300D65637 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95594B23420CEAE960D32EA /* Pods-wolfpackchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84YJMXPA5S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = wolfpackchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = john.wolfpackchat;
@@ -438,6 +730,7 @@
 		};
 		2525084B1E1B21E300D65637 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA00EE09F2BC5F5E2AA295F8 /* Pods-wolfpackchatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +745,7 @@
 		};
 		2525084C1E1B21E300D65637 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277C92A977003FFDF06BCEF6 /* Pods-wolfpackchatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +760,7 @@
 		};
 		2525084E1E1B21E300D65637 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6DFBE55C50BB7768D2FBB2F /* Pods-wolfpackchatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = wolfpackchatUITests/Info.plist;
@@ -479,6 +774,7 @@
 		};
 		2525084F1E1B21E300D65637 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4104FFD6F1586522FD9D4C /* Pods-wolfpackchatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = wolfpackchatUITests/Info.plist;
@@ -509,6 +805,7 @@
 				252508491E1B21E300D65637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2525084A1E1B21E300D65637 /* Build configuration list for PBXNativeTarget "wolfpackchatTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +814,7 @@
 				2525084C1E1B21E300D65637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2525084D1E1B21E300D65637 /* Build configuration list for PBXNativeTarget "wolfpackchatUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +823,7 @@
 				2525084F1E1B21E300D65637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
